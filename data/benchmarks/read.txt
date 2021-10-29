@@ -1,0 +1,49 @@
+Benchmark network information
+
+N = 500, 1000
+k = 10
+maxk = 50 (when n=500), 100 (when n=1000)
+mu = 0.1, 0.3, 0.75
+minc = 10 (n=500), 25 (n=1000)
+maxc = 100 (n=500), 250 (n=1000)
+N=500, 3 networks (could repeat)
+N=1000, 3 networks (could repeat)
+
+Ground Truths
+
+500 nodes, 0.1 mu
+
+the number of communities in this network is 11
+min 12, max 92
+ground truth modularity 0.7664920547682746
+
+500 nodes, 0.3 mu
+
+the number of communities in this network is 10
+min 16, max 83
+ground truth modularity 0.576014019185481
+
+500 nodes, 0.75 mu
+
+the number of communities in this network is 16
+min 10, max 75
+ground truth modularity 0.16787058935572446
+
+1000 nodes, 0.1 mu
+
+the number of communities in this network is 12
+min 28, max 190
+ground truth modularity 0.7691697648189921
+
+1000 nodes, 0.3 mu
+
+the number of communities in this network is 8
+min 55, max 236
+ground truth modularity 0.5280640088845582
+
+1000 nodes, 0.75 mu
+
+the number of communities in this network is 12
+min 32, max 156
+ground truth modularity 0.14008663151073036
+
